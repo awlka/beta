@@ -3,10 +3,15 @@
 \*------------------------------------*/
 
 body {
-  font-family: sans-serif;
+  font-family: "proxima-nova",sans-serif;
   font-weight: 400;
   background: $ablack;
   color: $awhite;
+}
+
+h1,
+small {
+  font-weight: normal;
 }
 
 .main {

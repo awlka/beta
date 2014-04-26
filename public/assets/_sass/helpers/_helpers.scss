@@ -1,0 +1,22 @@
+/*------------------------------------*\
+  Helpers
+\*------------------------------------*/
+
+*,
+*:after,
+*:before {
+  // Include box-sizing by Compass
+  @include box-sizing(border-box);
+}
+
+// Clearfix
+.cf {
+  &:after,
+  &:before {
+    content: "";
+    display: table;
+  }
+  &:after {
+    clear: both;
+  }
+}
